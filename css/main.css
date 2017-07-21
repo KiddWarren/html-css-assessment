@@ -1,0 +1,73 @@
+
+body {
+  background: url("../img/main-bg.jpeg");
+  background-size: cover;
+  height:100vh;
+  width:100vw;
+}
+
+.main_header {
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.mobile_menu {
+  width:60px;
+}
+
+.desktop_nav_container {
+    width:100%;
+    display:  none;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right:120px;
+    font-size: 24px;
+}
+.desktop_nav_container ul {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.content {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.your {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 8rem;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.personal_portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 2rem;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+@media(min-width:700px) {
+     .mobile_menu {
+         display: none;
+     }
+     .twitter_logo {
+       display: none;
+     }
+     .desktop_nav_container{
+       display: flex;
+     }
+ }
